@@ -69,7 +69,7 @@ const data = {
 	work: chalk.white( "Bald. Bearded. Builder." ),
 	twitter: chalk.cyan( "https://twitter.com/michaeljolley" ),
 	github: chalk.cyan( "https://github.com/michaeljolley" ),
-	twitch: chalk.cyan( "https://www.twitch.tv/themikejolley" ),
+	twitch: chalk.cyan( "https://twitch.tv/themikejolley" ),
 	web: chalk.cyan( "https://michaeljolley.com" ),
 	npx: chalk.white( "npx michaeljolley" ),
 	labelWork: chalk.white.bold( "          " ),
