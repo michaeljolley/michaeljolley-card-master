@@ -83,7 +83,7 @@ const data = {
 
 // Actual strings we're going to output
 const heading = `             ${ data.name }`;
-const working = `\n${ data.labelWork }  ${ data.work }`;
+const working = `\n${ data.labelWork }   ${ data.work }`;
 const workingUrl = `${ data.labelWorkUrl }  `;
 const twittering = `${ data.labelTwitter }  ${ data.twitter }`;
 const githubing = `${ data.labelGitHub }  ${ data.github }`;
