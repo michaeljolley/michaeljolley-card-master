@@ -1,0 +1,27 @@
+{
+  "name": "michaeljolley",
+  "version": "1.0.0",
+  "description": "My personal calling card.",
+  "main": "./bin/card.js",
+  "bin": {
+    "michaeljolley": "./bin/card.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Michael",
+    "Jolley",
+    "michaeljolley"
+  ],
+  "author": "Michael Jolley <mike@sparcapp.io> (https://michaeljolley.com)",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-leankit": "^4.5.0"
+  }
+}
