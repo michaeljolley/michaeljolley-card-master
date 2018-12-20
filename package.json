@@ -23,5 +23,13 @@
   "devDependencies": {
     "eslint": "^5.10.0",
     "eslint-config-leankit": "^4.5.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelJolley/michaeljolley-card-master.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MichaelJolley/michaeljolley-card-master/issues"
+  },
+  "homepage": "https://github.com/MichaelJolley/michaeljolley-card-master#readme"
 }
