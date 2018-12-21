@@ -74,7 +74,7 @@ const data = {
 	banner: chalk.hex("#20B968")(banner),
 	name: chalk.white( "Michael Jolley" ),
 	handle: chalk.cyan( "michaeljolley" ),
-	work: chalk.hex("#178599")("Bald. ") + chalk.hex("#1FAAC4")("Bearded. ") + chalk.hex("#23DEFF")("Builder."),
+	work: chalk.hex("#58849A")("Bald. ") + chalk.hex("#75A9C4")("Bearded. ") + chalk.hex("#9DDBFC")("Builder."),
 	twitter: chalk.cyan( "https://twitter.com/michaeljolley" ),
 	github: chalk.cyan( "https://github.com/michaeljolley" ),
 	twitch: chalk.cyan( "https://twitch.tv/themikejolley" ),
@@ -88,7 +88,7 @@ const data = {
 };
 
 // Actual strings we're going to output
-const heading = `                                         ${ data.name }`;
+const heading = `                                           ${ data.name }`;
 const working = `\n                                      ${ data.work }\n`;
 const twittering = `${ data.labelTwitter }  ${ data.twitter }`;
 const githubing = `${ data.labelGitHub }  ${ data.github }`;
