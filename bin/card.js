@@ -74,7 +74,7 @@ const data = {
 	banner: chalk.hex("#19D172")(banner),
 	name: chalk.white( "Michael Jolley" ),
 	handle: chalk.cyan( "michaeljolley" ),
-	work: chalk.hex("#23DEFF")("Bald. ") + chalk.hex("#20B7D2")("Bearded.") + chalk.hex("#1A94A9")("Builder."),
+	work: chalk.hex("#178599")("Bald. ") + chalk.hex("#1FAAC4")("Bearded. ") + chalk.hex("#23DEFF")("Builder."),
 	twitter: chalk.cyan( "https://twitter.com/michaeljolley" ),
 	github: chalk.cyan( "https://github.com/michaeljolley" ),
 	twitch: chalk.cyan( "https://twitch.tv/themikejolley" ),
