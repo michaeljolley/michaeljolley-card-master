@@ -82,7 +82,7 @@ const data = {
 	npx: chalk.white( "npx michaeljolley" ),
 	labelTwitter: chalk.hex("#1DA1F2").bold( " Twitter:" ),
 	labelGitHub: chalk.hex("#D7DCE3").bold( "  GitHub:" ),
-	labelTwitch: chalk.hex("#6441A4").bold( "Twitch:" ),
+	labelTwitch: chalk.hex("#8A6DC1").bold( "Twitch:" ),
 	labelWeb: chalk.white.bold( "Web:" ),
 	labelCard: chalk.white.bold( "    Card:" )
 };
