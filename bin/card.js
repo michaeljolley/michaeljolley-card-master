@@ -59,7 +59,7 @@ const options = {
 const data = {
 	name: chalk.white( "Michael Jolley" ),
 	handle: chalk.cyan( "michaeljolley" ),
-	work: chalk.white( "Bald. Bearded. Builder." ),
+	work: chalk.hex("#61C7D5")( "Bald. Bearded. Builder." ),
 	twitter: chalk.cyan( "https://twitter.com/michaeljolley" ),
 	github: chalk.cyan( "https://github.com/michaeljolley" ),
 	twitch: chalk.cyan( "https://twitch.tv/themikejolley" ),
@@ -67,9 +67,9 @@ const data = {
 	npx: chalk.white( "npx michaeljolley" ),
 	labelWork: chalk.white.bold( "          " ),
 	labelWorkUrl: chalk.white.bold( "           " ),
-	labelTwitter: chalk.white.bold( "   Twitter:" ),
-	labelGitHub: chalk.white.bold( "    GitHub:" ),
-	labelTwitch: chalk.white.bold( "    Twitch:" ),
+	labelTwitter: chalk.hex("#1DA1F2").bold( "   Twitter:" ),
+	labelGitHub: chalk.hex("#181717").bold( "    GitHub:" ),
+	labelTwitch: chalk.hex("#6441A4").bold( "    Twitch:" ),
 	labelWeb: chalk.white.bold( "       Web:" ),
 	labelCard: chalk.white.bold( "      Card:" )
 };
