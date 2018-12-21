@@ -83,12 +83,12 @@ const data = {
 	labelGitHub: chalk.hex("#D7DCE3").bold( "  GitHub:" ),
 	labelTwitch: chalk.hex("#6441A4").bold( "Twitch:" ),
 	labelWeb: chalk.white.bold( "Web:" ),
-	labelCard: chalk.white.bold( "      Card:" )
+	labelCard: chalk.white.bold( "   Card:" )
 };
 
 // Actual strings we're going to output
 const heading = `                                         ${ data.name }`;
-const working = `\n                                    ${ data.work }`;
+const working = `\n                                    ${ data.work }\n`;
 const twittering = `${ data.labelTwitter }  ${ data.twitter }`;
 const githubing = `${ data.labelGitHub }  ${ data.github }`;
 const twitching = `${ data.labelTwitch }  ${ data.twitch }`;
@@ -97,7 +97,7 @@ const carding = `\n${ data.labelCard }  ${ data.npx }`;
 
 const set1 = [banner, heading, working];
 const set2 = twittering + `           ` + twitching;
-const set3 = githubing + `           ` + webing;
+const set3 = githubing + `                ` + webing;
 
 const card = [
 	set1.join(newline), set2, set3, carding
