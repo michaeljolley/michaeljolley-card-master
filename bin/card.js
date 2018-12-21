@@ -66,7 +66,8 @@ const banner = `
 const options = {
 	padding: 1,
 	margin: 1,
-	borderStyle: "round"
+	borderStyle: "round",
+	borderColor: "#75A9C4"
 };
 
 // Text + chalk definitions
@@ -74,7 +75,7 @@ const data = {
 	banner: chalk.hex("#75A9C4")(banner), //#20B968
 	name: chalk.white( "Michael Jolley" ),
 	handle: chalk.cyan( "michaeljolley" ),
-	work: chalk.hex("#B89C46")("Bald. ") + chalk.hex("#D8B856")("Bearded. ") + chalk.hex("#FAD667")("Builder."),
+	work: chalk.hex("#947E39")("Bald. ") + chalk.hex("#B89C46")("Bearded. ") + chalk.hex("#FAD667")("Builder."),
 	twitter: chalk.cyan( "https://twitter.com/michaeljolley" ),
 	github: chalk.cyan( "https://github.com/michaeljolley" ),
 	twitch: chalk.cyan( "https://twitch.tv/themikejolley" ),
