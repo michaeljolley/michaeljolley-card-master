@@ -71,10 +71,10 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-	banner: chalk.hex("#20B968")(banner),
+	banner: chalk.hex("#75A9C4")(banner), //#20B968
 	name: chalk.white( "Michael Jolley" ),
 	handle: chalk.cyan( "michaeljolley" ),
-	work: chalk.hex("#58849A")("Bald. ") + chalk.hex("#75A9C4")("Bearded. ") + chalk.hex("#9DDBFC")("Builder."),
+	work: chalk.hex("#B89C46")("Bald. ") + chalk.hex("#D8B856")("Bearded. ") + chalk.hex("#FAD667")("Builder."),
 	twitter: chalk.cyan( "https://twitter.com/michaeljolley" ),
 	github: chalk.cyan( "https://github.com/michaeljolley" ),
 	twitch: chalk.cyan( "https://twitch.tv/themikejolley" ),
