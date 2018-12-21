@@ -59,6 +59,7 @@ const banner = `
                              ':ohmmmddyhyyhhhdhhmhhdyhdhddhddddyo:'                                 
                                   -/oyhdmdddddhdddmmmdhyyso/:.                                      
                                         ''...'''..''                                                
+
 `;
 
 // Define options for Boxen
@@ -81,21 +82,21 @@ const data = {
 	labelWork: chalk.white.bold( "          " ),
 	labelWorkUrl: chalk.white.bold( "           " ),
 	labelTwitter: chalk.hex("#1DA1F2").bold( "   Twitter:" ),
-	labelGitHub: chalk.hex("#181717").bold( "    GitHub:" ),
+	labelGitHub: chalk.hex("#C0C0C0").bold( "    GitHub:" ),
 	labelTwitch: chalk.hex("#6441A4").bold( "    Twitch:" ),
 	labelWeb: chalk.white.bold( "       Web:" ),
 	labelCard: chalk.white.bold( "      Card:" )
 };
 
 // Actual strings we're going to output
-const heading = '             ${ data.name }';
-const working = '\n${ data.labelWork }   ${ data.work }';
-const workingUrl = '${ data.labelWorkUrl }  ';
-const twittering = '${ data.labelTwitter }  ${ data.twitter }';
-const githubing = '${ data.labelGitHub }  ${ data.github }';
-const twitching = '${ data.labelTwitch }  ${ data.twitch }';
-const webing = '${ data.labelWeb }  ${ data.web }';
-const carding = '\n${ data.labelCard }  ${ data.npx }';
+const heading = `             ${ data.name }`;
+const working = `\n${ data.labelWork }   ${ data.work }`;
+const workingUrl = `${ data.labelWorkUrl }  `;
+const twittering = `${ data.labelTwitter }  ${ data.twitter }`;
+const githubing = `${ data.labelGitHub }  ${ data.github }`;
+const twitching = `${ data.labelTwitch }  ${ data.twitch }`;
+const webing = `${ data.labelWeb }  ${ data.web }`;
+const carding = `\n${ data.labelCard }  ${ data.npx }`;
 
 const card = [
 	banner, heading, working, workingUrl, twittering, githubing, twitching, webing, carding
