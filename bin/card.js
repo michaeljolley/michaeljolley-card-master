@@ -71,7 +71,7 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-	banner: chalk.hex("#19D172")(banner),
+	banner: chalk.hex("#20B968")(banner),
 	name: chalk.white( "Michael Jolley" ),
 	handle: chalk.cyan( "michaeljolley" ),
 	work: chalk.hex("#178599")("Bald. ") + chalk.hex("#1FAAC4")("Bearded. ") + chalk.hex("#23DEFF")("Builder."),
