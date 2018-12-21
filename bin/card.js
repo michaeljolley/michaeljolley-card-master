@@ -71,9 +71,10 @@ const options = {
 
 // Text + chalk definitions
 const data = {
+	banner: chalk.hex("#19D172")(banner),
 	name: chalk.white( "Michael Jolley" ),
 	handle: chalk.cyan( "michaeljolley" ),
-	work: chalk.hex("#61C7D5")( "Bald. Bearded. Builder." ),
+	work: chalk.hex("#23DEFF")("Bald. ") + chalk.hex("#20B7D2")("Bearded.") + chalk.hex("#1A94A9")("Builder."),
 	twitter: chalk.cyan( "https://twitter.com/michaeljolley" ),
 	github: chalk.cyan( "https://github.com/michaeljolley" ),
 	twitch: chalk.cyan( "https://twitch.tv/themikejolley" ),
@@ -83,21 +84,21 @@ const data = {
 	labelGitHub: chalk.hex("#D7DCE3").bold( "  GitHub:" ),
 	labelTwitch: chalk.hex("#6441A4").bold( "Twitch:" ),
 	labelWeb: chalk.white.bold( "Web:" ),
-	labelCard: chalk.white.bold( "   Card:" )
+	labelCard: chalk.white.bold( "    Card:" )
 };
 
 // Actual strings we're going to output
 const heading = `                                         ${ data.name }`;
-const working = `\n                                    ${ data.work }\n`;
+const working = `\n                                      ${ data.work }\n`;
 const twittering = `${ data.labelTwitter }  ${ data.twitter }`;
 const githubing = `${ data.labelGitHub }  ${ data.github }`;
 const twitching = `${ data.labelTwitch }  ${ data.twitch }`;
 const webing = `${ data.labelWeb }  ${ data.web }`;
 const carding = `\n${ data.labelCard }  ${ data.npx }`;
 
-const set1 = [banner, heading, working];
+const set1 = [data.banner, heading, working];
 const set2 = twittering + `           ` + twitching;
-const set3 = githubing + `                ` + webing;
+const set3 = githubing + `               ` + webing;
 
 const card = [
 	set1.join(newline), set2, set3, carding
