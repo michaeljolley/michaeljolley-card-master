@@ -79,27 +79,28 @@ const data = {
 	twitch: chalk.cyan( "https://twitch.tv/themikejolley" ),
 	web: chalk.cyan( "https://michaeljolley.com" ),
 	npx: chalk.white( "npx michaeljolley" ),
-	labelWork: chalk.white.bold( "          " ),
-	labelWorkUrl: chalk.white.bold( "           " ),
 	labelTwitter: chalk.hex("#1DA1F2").bold( "   Twitter:" ),
-	labelGitHub: chalk.hex("#C0C0C0").bold( "    GitHub:" ),
+	labelGitHub: chalk.hex("#D7DCE3").bold( "    GitHub:" ),
 	labelTwitch: chalk.hex("#6441A4").bold( "    Twitch:" ),
 	labelWeb: chalk.white.bold( "       Web:" ),
 	labelCard: chalk.white.bold( "      Card:" )
 };
 
 // Actual strings we're going to output
-const heading = `             ${ data.name }`;
-const working = `\n${ data.labelWork }   ${ data.work }`;
-const workingUrl = `${ data.labelWorkUrl }  `;
+const heading = `                               ${ data.name }`;
+const working = `\n                               ${ data.work }`;
 const twittering = `${ data.labelTwitter }  ${ data.twitter }`;
 const githubing = `${ data.labelGitHub }  ${ data.github }`;
 const twitching = `${ data.labelTwitch }  ${ data.twitch }`;
 const webing = `${ data.labelWeb }  ${ data.web }`;
 const carding = `\n${ data.labelCard }  ${ data.npx }`;
 
+const set1 = [banner, heading, working];
+const set2 = [twittering + `              ` + twitching];
+const set3 = [githubing + `              ` + webing];
+
 const card = [
-	banner, heading, working, workingUrl, twittering, githubing, twitching, webing, carding
+	set1, set2, set3, carding
 ];
 
 // Put all our output together into a single variable so we can use boxen effectively
