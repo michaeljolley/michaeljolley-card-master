@@ -78,7 +78,7 @@ const data = {
 	work: chalk.hex("#947E39")("Bald. ") + chalk.hex("#B89C46")("Bearded. ") + chalk.hex("#FAD667")("Builder."),
 	twitter: chalk.cyan( "https://twitter.com/michaeljolley" ),
 	github: chalk.cyan( "https://github.com/michaeljolley" ),
-	twitch: chalk.cyan( "https://twitch.tv/themikejolley" ),
+	twitch: chalk.cyan( "https://twitch.tv/themichaeljolley" ),
 	web: chalk.cyan( "https://michaeljolley.com" ),
 	npx: chalk.white( "npx michaeljolley" ),
 	labelTwitter: chalk.hex("#1DA1F2").bold( " Twitter:" ),
