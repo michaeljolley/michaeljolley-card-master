@@ -1,21 +1,20 @@
-- name: npm-publish
-    on: 
-      push: # Edit this to change when (and for which branches) the action is triggered
-        branches:
-          - master
-      jobs:
-      npm-publish:
-          name: npm-publish
-          runs-on: ubuntu-latest
-          steps:
-          - name: Checkout repository
-          uses: actions/checkout@master
-          - name: Set up Node.js
-          uses: actions/setup-node@master
-          with:
-              node-version: 10.0.0
-          - name: Publish if version has been updated
-          uses: pascalgn/npm-publish-action@51fdb4531e99aac1873764ef7271af448dc42ab4
-          env: # More info about the environment variables in the README
-              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Leave this as is, it's automatically generated
-              NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }} # You need to set this in your repo settings
+name: publish-to-npm
+on:
+  push:
+    branches:
+      - master # Change this to your default branch
+jobs:
+  publish-to-npm:
+    name: publish-to-npm
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@master
+    - name: Set up Node.js
+      uses: actions/setup-node@master
+      with:
+        node-version: 12.0.0
+    - name: Publish version
+      uses: geoblink/publish-to-npm@v1.0.2
+      env:
+        NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
