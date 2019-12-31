@@ -1,20 +1,20 @@
 {
   "name": "michaeljolley",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "My personal calling card.",
   "main": "./bin/card.js",
   "bin": {
     "michaeljolley": "./bin/card.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "card": "node ./bin/card.js"
   },
   "keywords": [
     "Michael",
     "Jolley",
     "michaeljolley"
   ],
-  "author": "Michael Jolley <mike@sparcapp.io> (https://michaeljolley.com)",
+  "author": "Michael Jolley <mike@sparcapp.io> (https://baldbeardedbuilder.com)",
   "license": "MIT",
   "dependencies": {
     "boxen": "^2.1.0",
