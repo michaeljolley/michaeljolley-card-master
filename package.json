@@ -5,7 +5,7 @@
   "main": "./bin/card.js",
   "type": "module",
   "bin": {
-    "michaeljolley": "./bin/card.js"
+    "michaeljolley": "bin/card.js"
   },
   "scripts": {
     "card": "node ./bin/card.js"
